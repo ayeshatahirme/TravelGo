@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IVION</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        .result-fullname{
+        text-align: right;
+        margin-right: 50px;
+    }
+    </style>
+</head>
+<script>
+    window.addEventListener('load', () => {
+        const fullname = sessionStorage.getItem('FULLNAME');
+        // const imageavatar = sessionStorage.getItem('IMAGEAVATAR');
+
+        document.getElementById('result-fullname').innerHTML = fullname;
+        // document.getElementById('result-avatar').innerHTML = upload-img;
+    })
+</script>
+<body>
+    <!-- Second page -->
+    <div id="two">
+        <h1>Hello mate!</h1>
+        <div class="result-fullname">
+            <span id="result-fullname"></span>
+            <img src="" alt=""> <span id="result-avatar" />
+        </div>
+    </div>
+</body>
+</html>
