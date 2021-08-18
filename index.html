@@ -4,86 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body{
-        margin: 0;
-        padding: 0;
-        background-color: #f6f7fc;
-        font-family: Arial, Helvetica, sans-serif;
-        }
-        h1{
-            margin-top: 0px;
-            text-align: center;
-            color: #fb771a;
-            padding: 30px;
-        }
-        .navBar{
-            background-color: #f6f7fc;
-            box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
-        }
-        .img-name{
-            width: 320px;
-            overflow: hidden;
-            margin: auto;
-            margin-top: 60px;
-            margin-bottom: 100px;
-            padding: 80px;
-            background-color: #ffffff;
-            border-radius: 10px;
-            text-align: center;
-            box-shadow: 0 3px 8px 0 rgba(51, 51, 51, 0.2), 0 10px 8px 0 rgba(51, 51, 51, 0.2);
-        }
-        #fullname{
-            width: 300px;
-            height: 30px;
-            border-color: #fb771a;
-            border-radius: 3px;
-            text-align: center;
-            margin-top: 30px;
-            margin-bottom: 30px;
-            font-size: 16px;
-        }
-        #next-btn{
-            color: white;
-            background-color: #f6f7fc;
-            padding: 10px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            border: 2px solid #fb771a;
-            border-radius: 5px;
-            font-family: 'Roboto',sans-serif;
-            font-weight: 0;
-            transition: all 0.2s;
-            color: #fb771a;
-            box-shadow: 0 3px 8px 0 rgba(51, 51, 51, 0.2), 0 10px 60px 0 rgba(51, 51, 51, 0.2);
-        }
-        #next-btn:hover{
-            color:#ffffff;
-            background-color:#fb771a;
-        }
-        input[type=text]{
-            -webkit-transition: width 0.4s ease-in-out;
-            transition: width 0.4s ease-in-out;
-            border: 2px solid #fb771a;
-            outline: none;
-        }
-        .avatar {
-            vertical-align: middle;
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            margin: 0px;
-            margin-bottom: 30px;
-        }
-        #upload-img{
-            text-align: center;
-            margin-left: 60px;
-            margin-bottom: 20px;
-        }
+    <link rel="stylesheet" href="stylesheet.css">
 
-    </style>
     <title>IVION</title>
 </head>
 <script>
@@ -104,10 +26,8 @@
 
     function passvalue() {
         const fullname = document.getElementById("fullname").value;
-        // const image = document.getElementById("upload-img").value;
 
         sessionStorage.setItem("FULLNAME", fullname);
-        // sessionStorage.setItem("IMAGEAVATAR", avatar);
         return;
     }
 
