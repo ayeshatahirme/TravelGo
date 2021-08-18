@@ -111,28 +111,6 @@
         return;
     }
 
-    oFReader = new FileReader();
-
-    oFReader.onload = function (oFREvent) {     
-        var screenHeight = screen.availHeight;
-        screenHeight = screenHeight - 220;
-
-        var img = $('#fotoImg');
-        img.attr('src', oFREvent.target.result);
-
-        img.css( { height : screenHeight, visibility: 'visible' });
-        $("#stringImg").text( "Data Image: " + oFREvent.target.result);
-        $('#form1').submit();
-    };
-
-    $(function() {
-        $("input:file").change(function (){
-            var oFile = this.files[0];
-            oFReader.readAsDataURL(oFile);
-        });
-    });
-
-
 </script>
 <body>
 
@@ -142,6 +120,7 @@
             <h1>IVION</h1>
         </div>    
         <div class="img-name">
+            
             <form action="main.html" method="POST">
                 <img src="images/camera-new.png" alt="Avatar" class="avatar" id="avatar">
                 

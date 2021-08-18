@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IVION</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         .result-fullname{
         text-align: right;
@@ -16,20 +17,93 @@
 <script>
     window.addEventListener('load', () => {
         const fullname = sessionStorage.getItem('FULLNAME');
-        // const imageavatar = sessionStorage.getItem('IMAGEAVATAR');
 
         document.getElementById('result-fullname').innerHTML = fullname;
-        // document.getElementById('result-avatar').innerHTML = upload-img;
     })
 </script>
 <body>
     <!-- Second page -->
     <div id="two">
-        <h1>Hello mate!</h1>
-        <div class="result-fullname">
-            <span id="result-fullname"></span>
-            <img src="" alt=""> <span id="result-avatar" />
+        <div class="navBar2">
+            <h1>Logo IVION</h1>
+            <div class="result-fullname">
+                <span id="result-fullname"></span>
+                <img src="" alt=""> <span id="result-avatar" />
+            </div>
         </div>
+        
+        <div class="menu-bar">
+            <ul class="nav-item">
+                <li><a href="">Home</a>
+                    <div class="sub-menu1">
+                        <ul>
+                            <li class="on-hover"><a href="">A</a><i class="fa fa-angle-right"></i>
+                                <div class="sub-menu2">
+                                    <ul>
+                                        <li><a href="">1</a></li>
+                                        <li><a href="">2</a></li>
+                                        <li><a href="">3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="on-hover"><a href="">B</a>
+                                <div class="sub-menu2">
+                                    <ul>
+                                        <li><a href="">1</a></li>
+                                        <li><a href="">2</a></li>
+                                        <li><a href="">3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="on-hover"><a href="">C</a>
+                                <div class="sub-menu2">
+                                    <ul>
+                                        <li><a href="">1</a></li>
+                                        <li><a href="">2</a></li>
+                                        <li><a href="">3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="">Contact</a>
+                    <div class="sub-menu1">
+                        <ul>
+                            <li class="on-hover"><a href="">A</a>
+                                <div class="sub-menu2">
+                                    <ul>
+                                        <li><a href="">1</a></li>
+                                        <li><a href="">2</a></li>
+                                        <li><a href="">3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="on-hover"><a href="">B</a>
+                                <div class="sub-menu2">
+                                    <ul>
+                                        <li><a href="">1</a></li>
+                                        <li><a href="">2</a></li>
+                                        <li><a href="">3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="on-hover"><a href="">C</a>
+                                <div class="sub-menu2">
+                                    <ul>
+                                        <li><a href="">1</a></li>
+                                        <li><a href="">2</a></li>
+                                        <li><a href="">3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        
     </div>
 </body>
 </html>

@@ -1,18 +1,24 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #f6f7fc;
+    background-color: #E3E3DF;
     font-family: Arial, Helvetica, sans-serif;
     }
     h1{
         margin-top: 0px;
-        text-align: center;
-        color: #fb771a;
+        color: #E3E3DF;
         padding: 30px;
     }
     .navBar{
-        background-color: #f6f7fc;
+        background-color: #5D001E;
+        text-align: center;
         box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+    }
+    .navBar2{
+        background-color: #5D001E;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+        text-align: left;
+        
     }
     .img-name{
         width: 320px;
@@ -75,4 +81,75 @@ body{
         margin-left: 60px;
         margin-bottom: 20px;
     }
-    
+    ul li {
+        list-style: none;
+        display: inline-block;
+        
+    }
+    ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fb771a;
+        padding: 7px 20px;   
+        border-color: #fb771a;
+    }
+    .menu-bar{
+        background-color: #f6f7fc;
+        text-align: center;
+    }
+    .active, .menu-bar ul li a:hover {
+        background: #fb771a;
+        color: #f6f7fc;
+        border-radius: 3px;
+    }
+    .sub-menu1{
+        display: none;
+    }
+    .menu-bar, .sub-menu1 ul li a{
+        color: #f6f7fc;
+        margin-left: 0px;
+    }
+    .menu-bar ul li:hover .sub-menu1{
+        display: block;
+        position: absolute;
+        color: #f6f7fc;
+        background-color: #fb771a;
+        margin-top: 1px;
+        margin-right: 150px;
+        width: 170px;
+    }
+    .menu-bar ul li:hover .sub-menu1 ul{
+        display: block;
+        margin: 10px;
+        margin-left: -10px;
+    }
+    .menu-bar ul li:hover .sub-menu1 ul li{
+        width: 100px;
+        padding: 10px;
+        border-bottom: 1px dotted #fff;
+        background: transparent;
+        border-radius: 0;
+        text-align: left;
+    }
+    .menu-bar ul li:hover .sub-menu1 ul li:last-child{
+        border-bottom: none;
+    }
+    .menu-bar ul li:hover .sub-menu1 ul li a:hover{
+        color: aqua;
+    }
+    .fa-angle-right{
+        float: right;
+        margin-top: -26px;
+    }
+    .sub-menu2{
+        display: none;
+    }
+    .on-hover:hover .sub-menu2{
+        position: absolute;
+        display: block;
+        margin-top: -40px;
+        margin-left: 125px;
+        background: #fb771a;
+    }
