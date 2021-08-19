@@ -152,8 +152,10 @@ body{
     }
     .fa-angle-right{
         float: right;
-        margin-top: -26px;
-        margin-right: 0px;
+        margin-top: -36px;
+        margin-bottom: -10px;
+        position: relative;
+        left: 80px;
     }
     .sub-menu2{
         display: none;
@@ -169,13 +171,13 @@ body{
     footer {
         position: fixed;
         width: 100%;
-        background-color: #114B5F;
+        background-color: #114b5f;
         color: #f6f7fc;
         text-align: center;
         bottom: 0;        
     }
     footer p{
-        font-size: 26px;
+        font-size: 20px;
     }
     .fa{
         padding: 10px;
@@ -184,40 +186,60 @@ body{
         border-radius: 50%;
         width: 30px;
         font-size: 10px;
-        margin-right: 20px;
-    }
-    .fa:hover{
-        background: #1a936f;
-        color: #f6f7fc;
-        box-shadow: 0 0 11px rgba(238, 238, 238, 0.925); 
+        margin-right: 25px;
     }
     .fa-facebook{
-        background: white;
-        color: #3B5998;
+        background: #1a936f;
+        color: #f6f7fc;
         height: 9px;
-        margin-bottom: 30px;    
+        margin-bottom: 20px;    
     }
     .fa-twitter{
-        background: white;
-        color: #55ACEE;
+        background: #1a936f;
+        color: #f6f7fc;
         height: 9px;
-        margin-bottom: 30px;    
+        margin-bottom: 20px;    
     }
     .fa-linkedin-square{
-        background: white;
-        color: #007bb5;
+        background: #1a936f;
+        color: #f6f7fc;
         height: 9px;
-        margin-bottom: 30px;    
+        margin-bottom: 20px;    
     }
     .fa-github{
-        background: white;
-        color: rgb(41, 40, 40);
+        background: #1a936f;
+        color: #f6f7fc;
         height: 9px;
-        margin-bottom: 30px;    
+        margin-bottom: 20px;    
     }
     .fa-instagram{
+        background: #1a936f;
+        color: #f6f7fc;
+        height: 9px;
+        margin-bottom: 20px;    
+    }
+    .fa-facebook:hover{
+        background: white;
+        color: #3B5998;
+        box-shadow: 0 0 11px rgba(238, 238, 238, 0.925); 
+    }
+    .fa-twitter:hover{
+        background: white;
+        color: #55ACEE;
+        box-shadow: 0 0 11px rgba(238, 238, 238, 0.925); 
+    }
+    .fa-linkedin-square:hover{
+        background: white;
+        color: #007bb5;
+        box-shadow: 0 0 11px rgba(238, 238, 238, 0.925); 
+    }
+    .fa-github:hover{
+        background: white;
+        color: rgb(41, 40, 40);
+        box-shadow: 0 0 11px rgba(238, 238, 238, 0.925); 
+    }
+    .fa-instagram:hover{
         background: white;
         color: #f40083;
-        height: 9px;
-        margin-bottom: 30px;    
+        box-shadow: 0 0 11px rgba(238, 238, 238, 0.925); 
     }
