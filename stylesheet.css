@@ -12,13 +12,17 @@ body{
     .navBar{
         background-color: #114b5f;
         text-align: center;
-        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
     }
-    .navBar2{
+    nav{
         background-color: #114b5f;
         box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
         text-align: left;
         padding-left: 70px;        
+    }
+    .navBar1{
+        background-color: #114b5f;
+        text-align: left;
+        padding-left: 70px;  
     }
     .img-name{
         width: 320px;
@@ -68,11 +72,14 @@ body{
         border: 2px solid #fb771a;
         outline: none;
     }
-    .result-fullname{
+    #result-fullname{
         text-align: right;
         margin-right: 60px;
         color: #f6f7fc;
+        font-size: 18px;
+        font-weight: 100;
         padding-bottom: 20px;
+        float: right;
     }
     .avatar {
         vertical-align: middle;
@@ -89,8 +96,7 @@ body{
     }
     ul li {
         list-style: none;
-        display: inline-block;
-        
+        display: inline-block;        
     }
     ul li a {
         text-decoration: none;
@@ -147,7 +153,7 @@ body{
     .fa-angle-right{
         float: right;
         margin-top: -26px;
-        margin-right: -20px;
+        margin-right: 0px;
     }
     .sub-menu2{
         display: none;
@@ -157,6 +163,61 @@ body{
         position: absolute;
         display: block;
         margin-top: -40px;
-        margin-left: 180px;
+        margin-left: 160px;
         background: #114B5F;
+    }
+    footer {
+        position: fixed;
+        width: 100%;
+        background-color: #114B5F;
+        color: #f6f7fc;
+        text-align: center;
+        bottom: 0;        
+    }
+    footer p{
+        font-size: 26px;
+    }
+    .fa{
+        padding: 10px;
+        padding-bottom: 30px;
+        text-decoration: none;
+        border-radius: 50%;
+        width: 30px;
+        font-size: 10px;
+        margin-right: 20px;
+    }
+    .fa:hover{
+        background: #1a936f;
+        color: #f6f7fc;
+        box-shadow: 0 0 11px rgba(238, 238, 238, 0.925); 
+    }
+    .fa-facebook{
+        background: white;
+        color: #3B5998;
+        height: 9px;
+        margin-bottom: 30px;    
+    }
+    .fa-twitter{
+        background: white;
+        color: #55ACEE;
+        height: 9px;
+        margin-bottom: 30px;    
+    }
+    .fa-linkedin-square{
+        background: white;
+        color: #007bb5;
+        height: 9px;
+        margin-bottom: 30px;    
+    }
+    .fa-github{
+        background: white;
+        color: rgb(41, 40, 40);
+        height: 9px;
+        margin-bottom: 30px;    
+    }
+    .fa-instagram{
+        background: white;
+        color: #f40083;
+        height: 9px;
+        margin-bottom: 30px;    
     }
