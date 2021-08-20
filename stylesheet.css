@@ -12,6 +12,7 @@ body{
     .navBar{
         background-color: #114b5f;
         text-align: center;
+        font-family: cursive;
     }
     nav{
         background-color: #114b5f;
@@ -22,7 +23,8 @@ body{
     .navBar1{
         background-color: #114b5f;
         text-align: left;
-        padding-left: 70px;  
+        font-family: cursive;
+        font-size: 28px;
     }
     .img-name{
         width: 320px;
@@ -94,6 +96,52 @@ body{
         margin-left: 60px;
         margin-bottom: 20px;
     }
+    .mySideMenu{
+        font-size: 30px;
+        color: #f6f7fc;
+        cursor: pointer;
+        padding-right: 70px;
+    }
+    .sideMenu{
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #114b5f;
+        box-shadow: 2px 5px 20px 8px rgba(0, 0, 0, 0.308);
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+    .mySideMenu:hover{
+        color: #1a936f;
+    }
+    .sideMenu a{
+        padding: 22px 8px 8px 36px;
+        text-decoration: none;
+        font-size: 22px;
+        color: #f6f7fc;
+        display: block;
+        transition: 0.3s;
+        margin-top: 10px;
+    }
+    .sideMenu a:hover{
+        color: #f6f7fc;
+        font-size: 28px;
+        font-weight: 500;
+    }
+    .sideMenu .closebtn{
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    .sideMenu .closebtn:hover{
+        font-size: 44px;
+    }
     ul li {
         list-style: none;
         display: inline-block;        
@@ -103,17 +151,22 @@ body{
         font-size: 20px;
         display: block;
         font-family: Arial, Helvetica, sans-serif;
-        color: #1a936f;
-        padding: 7px 20px;
+        color: #f6f7fc;
+        padding: 7px 18px;
+    }
+    .item{
+        background-color: #1a936f;
+        margin-right: 15px;
+        border-radius: 10px;
     }
     .menu-bar{
-        background-color: #f6f7fc;
         text-align: center;
     }
     .active, .menu-bar ul li a:hover {
-        background: #114B5F;
+        background: #1a936f;
         color: #f6f7fc;
         border-radius: 3px;
+        border-radius: 10px 10px 0px 0px;
     }
     .sub-menu1{
         display: none;
@@ -126,7 +179,7 @@ body{
         display: block;
         position: absolute;
         color: #f6f7fc;
-        background-color: #114B5F;
+        background-color: #1a936f;
         margin-top: 1px;
         margin-right: 150px;
         width: 220px;
@@ -148,7 +201,10 @@ body{
         border-bottom: none;
     }
     .menu-bar ul li:hover .sub-menu1 ul li a:hover{
-        color: #88d498;
+        color: #114b5f;
+        font-size: 21px;
+        transition: 0.2s;
+        font-weight: 600;
     }
     .fa-angle-right{
         float: right;
@@ -166,18 +222,27 @@ body{
         display: block;
         margin-top: -40px;
         margin-left: 160px;
-        background: #114B5F;
+        background: #1a936f;
+    }
+    section{
+        background: url(images/bg5.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 700px;
+        margin-top: -76px;
     }
     footer {
-        position: fixed;
+        /* position: fixed; */
         width: 100%;
         background-color: #114b5f;
         color: #f6f7fc;
         text-align: center;
-        bottom: 0;        
+        bottom: 0;
+        padding-top: 2px;
     }
     footer p{
         font-size: 20px;
+        letter-spacing: 0.5px;
     }
     .fa{
         padding: 10px;

@@ -9,18 +9,38 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <script>
+
+    // moving name to next page
     window.addEventListener('load', () => {
         const fullname = sessionStorage.getItem('FULLNAME');
 
         document.getElementById('result-fullname').innerHTML = fullname;
     })
+
+    // Open Side Menu
+    function openSideMenu() {
+        document.getElementById("mySideMenu").style.width="250px";
+    }
+
+    // Close Side Menu
+    function closeSideMenu() {
+        document.getElementById("mySideMenu").style.width="0";
+    }
 </script>
 <body>
     <!-- Second page -->
     <nav>
         <div class="result">
-            <h1 class="navBar1">IVION<span id="result-fullname"></span></h1>
+            <div id="mySideMenu", class="sideMenu">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeSideMenu()">&times;</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Display</a>
+                <a href="#">Consider</a>
+            </div>
+            <h1 class="navBar1"><span class="mySideMenu" onclick="openSideMenu()">&#9776;</span>TravelGo<span id="result-fullname"></span></h1>
         </div>
+        
     </nav>
     <div id="two">
         <!-- <div class="result-fullname">
@@ -30,56 +50,56 @@
         
         <div class="menu-bar">
             <ul class="nav-item">
-                <li><a href="#">Clothes</a>
+                <li><a href="#" class="item">Clothes</a>
                     <div class="sub-menu1">
                         <ul>
-                            <li class="on-hover"><a href="https://thecambridgeshop.com/pages/cambridge">Men</a><i class="fa fa-angle-right"></i>
+                            <li class="on-hover"><a href="#">Men</a><i class="fa fa-angle-right"></i>
                                 <div class="sub-menu2">
                                     <ul>
-                                        <li><a href="https://thecambridgeshop.com/collections/new-arrival">Eastern</a></li>
-                                        <li><a href="https://thecambridgeshop.com/collections/casual-shirts-top-summer-2021">Western</a></li>
-                                        <li><a href="https://thecambridgeshop.com/collections/formal-shirt">Formal</a></li>
+                                        <li><a href="#">Eastern</a></li>
+                                        <li><a href="#">Western</a></li>
+                                        <li><a href="#">Formal</a></li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="on-hover"><a href="#">Women</a><i class="fa fa-angle-right"></i>
                                 <div class="sub-menu2">
                                     <ul>
-                                        <li><a href="https://pk.sapphireonline.pk/collections/unstitched">Unstitched</a></li>
-                                        <li><a href="https://www.threadsandmotifs.com/">Formal</a></li>
-                                        <li><a href="https://outfitters.com.pk/pages/women">Western</a></li>
+                                        <li><a href="#">Unstitched</a></li>
+                                        <li><a href="#">Formal</a></li>
+                                        <li><a href="#">Western</a></li>
                                     </ul>
                                 </div>
                             </li>
-                            <li class="on-hover"><a href="https://outfitters.com.pk/pages/juniors">Kids</a><i class="fa fa-angle-right"></i>
+                            <li class="on-hover"><a href="#">Kids</a><i class="fa fa-angle-right"></i>
                                 <div class="sub-menu2">
                                     <ul>
-                                        <li><a href="https://outfitters.com.pk/collections/girl-4-years-14-years">Girls</a></li>
-                                        <li><a href="https://outfitters.com.pk/collections/boys-4-years-14-years">Boys</a></li>
+                                        <li><a href="#">Girls</a></li>
+                                        <li><a href="#">Boys</a></li>
                                     </ul>
                                 </div>
                             </li>
                         </ul>
                     </div>
                 </li>
-                <li><a href="">Accessories</a>
+                <li><a href="" class="item">Accessories</a>
                     <div class="sub-menu1">
                         <ul>
-                            <li class="on-hover"><a href="https://pk.sapphireonline.pk/collections/womens-shoes">Shoes</a><i class="fa fa-angle-right"></i>
+                            <li class="on-hover"><a href="#">Shoes</a><i class="fa fa-angle-right"></i>
                                 <div class="sub-menu2">
                                     <ul>
-                                        <li><a href="https://pk.sapphireonline.pk/collections/flats">Flats</a></li>
-                                        <li><a href="https://pk.sapphireonline.pk/collections/heels">Heels</a></li>
-                                        <li><a href="https://pk.sapphireonline.pk/collections/comfort-shoes">Comforts</a></li>
+                                        <li><a href="#">Flats</a></li>
+                                        <li><a href="#">Heels</a></li>
+                                        <li><a href="#">Comforts</a></li>
                                     </ul>
                                 </div>
                             </li>
-                            <li class="on-hover"><a href="https://pk.sapphireonline.pk/collections/bags">Bags</a><i class="fa fa-angle-right"></i>
+                            <li class="on-hover"><a href="#">Bags</a><i class="fa fa-angle-right"></i>
                                 <div class="sub-menu2">
                                     <ul>
-                                        <li><a href="https://pk.sapphireonline.pk/collections/women-wallets">Wallets</a></li>
-                                        <li><a href="https://pk.sapphireonline.pk/collections/tote-bags">Tote</a></li>
-                                        <li><a href="https://pk.sapphireonline.pk/collections/clutches">Clutches</a></li>
+                                        <li><a href="#">Wallets</a></li>
+                                        <li><a href="#">Tote</a></li>
+                                        <li><a href="#">Clutches</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -95,7 +115,7 @@
                         </ul>
                     </div>
                 </li>
-                <li><a href="">Home</a>
+                <li><a href="" class="item">Home</a>
                     <div class="sub-menu1">
                         <ul>
                             <li class="on-hover"><a href="">Bedding</a><i class="fa fa-angle-right"></i>
@@ -119,7 +139,7 @@
                         </ul>
                     </div>
                 </li>
-                <li><a href="">Kitchen</a>
+                <li><a href="" class="item">Kitchen</a>
                     <div class="sub-menu1">
                         <ul>
                             <li class="on-hover"><a href="">Items</a><i class="fa fa-angle-right"></i>
@@ -145,6 +165,7 @@
             </ul>
         </div>        
     </div>
+    <section></section>
 
     <!-- Footer -->
     <footer>
