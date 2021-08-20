@@ -186,12 +186,12 @@ body{
     }
     .menu-bar ul li:hover .sub-menu1 ul{
         display: block;
-        margin: 10px;
+        margin: 8px;
         margin-left: -50px;
     }
     .menu-bar ul li:hover .sub-menu1 ul li{
         width: 120px;
-        padding: 10px;
+        padding: 8px;
         border-bottom: 1px dotted #fff;
         background: transparent;
         border-radius: 0;
@@ -200,10 +200,13 @@ body{
     .menu-bar ul li:hover .sub-menu1 ul li:last-child{
         border-bottom: none;
     }
+    .menu-bar ul li:hover .sub-menu1 ul li a{
+        font-size: 18px;
+    }
     .menu-bar ul li:hover .sub-menu1 ul li a:hover{
         color: #114b5f;
-        font-size: 21px;
-        transition: 0.2s;
+        font-size: 18px;
+        transition: 0.3s;
         font-weight: 600;
     }
     .fa-angle-right{
@@ -222,6 +225,7 @@ body{
         display: block;
         margin-top: -40px;
         margin-left: 160px;
+        padding-left: 50px;
         background: #1a936f;
     }
     section{
