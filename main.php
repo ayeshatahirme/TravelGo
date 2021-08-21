@@ -7,27 +7,8 @@
     <title>IVION</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
 </head>
-<script>
-
-    // moving name to next page
-    window.addEventListener('load', () => {
-        const fullname = sessionStorage.getItem('FULLNAME');
-
-        document.getElementById('result-fullname').innerHTML = fullname;
-    })
-
-    // Open Side Menu
-    function openSideMenu() {
-        document.getElementById("mySideMenu").style.width="250px";
-    }
-
-    // Close Side Menu
-    function closeSideMenu() {
-        document.getElementById("mySideMenu").style.width="0";
-        // element.style.width="0px";
-    }
-</script>
 <body>
     <!-- Second page -->
     <nav>
