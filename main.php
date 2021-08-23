@@ -5,10 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IVION</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <!-- <link rel="stylesheet" href="stylesheet.css"> -->
+    <link rel="stylesheet" href="stylesheet.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="script.js"></script>
+    
 </head>
+<script>
+    // Change text color
+    function changeTextColor() {
+        document.getElementById('change').style.color = 'blue';
+    }
+    // oninput function
+    function onInputFunction() {
+        var temp = document.getElementById('myInput').value;
+        document.getElementById('output').innerHTML = 'You are searching: ' + temp;
+    }
+
+</script>
 <body>
     <!-- Second page -->
     <nav>
@@ -148,8 +162,25 @@
             </ul>
         </div>        
     </div>
-    <section></section>
+    <section>
+        <div class="centered">
+            <p>Let's <b>Travel Together</b>!</p>
+        </div>
+    </section>
+    <div class="details">
+        <h2>Detalis</h2>
+        <h4 id="change">Change my color to blue!</h4>
+        <input type="button" id="next-btn" onclick="changeTextColor()" value="Blue">
+        <input type="button" id="next-btn" ondblclick="changeTextColor()" value="DoubleClickBlue">
 
+        <label><br>Search</label>
+        <input type="text" id="myInput" oninput="onInputFunction()">
+        <p id="output"></p>
+
+        <label>Email: </label>
+        <input type="email" value="youremail">
+    </div>
+    
     <!-- Footer -->
     <footer>
         <p>Thank you for visiting</p>

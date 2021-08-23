@@ -34,6 +34,16 @@ function openSideMenu() {
 
 // Close Side Menu
 function closeSideMenu() {
-    document.getElementById("mySideMenu").style.width="0";
-    // element.style.width="0px";
+    document.getElementsByClassName("sideMenu").style.width="0";
+}
+
+// Change text color
+function changeTextColor() {
+    document.getElementById('change').style.color = 'blue';
+}
+
+// oninput function
+function onInputFunction() {
+    var temp = document.getElementById('myInput').value;
+    document.getElementById('output').innerHTML = 'You are searching: ' + temp;
 }
