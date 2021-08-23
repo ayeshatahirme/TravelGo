@@ -22,6 +22,11 @@
         document.getElementById('output').innerHTML = 'You are searching: ' + temp;
     }
 
+    // Change bg on onfocus function
+    function bgChangefunction(temp) {
+        temp.style.background = "#D1E7FA"
+    }
+
 </script>
 <body>
     <!-- Second page -->
@@ -174,13 +179,13 @@
         <input type="button" id="next-btn" ondblclick="changeTextColor()" value="DoubleClickBlue">
 
         <label><br>Search</label>
-        <input type="text" id="myInput" oninput="onInputFunction()">
+        <input type="text" id="myInput" oninput="onInputFunction()" onfocus="bgChangefunction(this)">
         <p id="output"></p>
 
         <label>Email: </label>
-        <input type="email" value="youremail">
+        <input type="email" value="youremail" onfocus="bgChangefunction(this)">
     </div>
-    
+
     <!-- Footer -->
     <footer>
         <p>Thank you for visiting</p>
