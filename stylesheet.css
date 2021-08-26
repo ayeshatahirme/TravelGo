@@ -209,10 +209,10 @@ body{
         font-size: 18px;
     }
     .menu-bar ul li:hover .sub-menu1 ul li a:hover{
-        color: #114b5f;
-        font-size: 18px;
-        transition: 0.3s;
-        font-weight: 600;
+        color: #87CEEB;
+        font-size: 19px;
+        transition: 0.2s;
+        font-weight: 300;
     }
     .fa-angle-right{
         float: right;
