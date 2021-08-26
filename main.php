@@ -43,12 +43,7 @@
         </div>
         
     </nav>
-    <div id="two">
-        <!-- <div class="result-fullname">
-            <span id="result-fullname"></span>
-            <img src="" alt=""> <span id="result-avatar" />
-        </div> -->
-        
+    <div id="two">        
         <div class="menu-bar">
             <ul class="nav-item">
                 <li><a href="#" class="item">Travel</a>
@@ -72,14 +67,6 @@
                                     </ul>
                                 </div>
                             </li>
-                            <!-- <li class="on-hover"><a href="#">Kids</a><i class="fa fa-angle-right"></i>
-                                <div class="sub-menu2">
-                                    <ul>
-                                        <li><a href="#">Girls</a></li>
-                                        <li><a href="#">Boys</a></li>
-                                    </ul>
-                                </div>
-                            </li> -->
                         </ul>
                     </div>
                 </li>
@@ -91,7 +78,6 @@
                                     <ul>
                                         <li><a href="#">By Road</a></li>
                                         <li><a href="#">By Plane</a></li>
-                                        <!-- <li><a href="#">Comforts</a></li> -->
                                     </ul>
                                 </div>
                             </li>
@@ -175,8 +161,6 @@
     <div class="details">
         <h2>Detalis</h2>
         <h4 id="change">Change my color to blue!</h4>
-        <input type="button" id="next-btn" onclick="changeTextColor()" value="Blue">
-        <input type="button" id="next-btn" ondblclick="changeTextColor()" value="DoubleClickBlue">
 
         <label><br>Search</label>
         <input type="text" id="myInput" oninput="onInputFunction()" onfocus="bgChangefunction(this)">

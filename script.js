@@ -37,10 +37,10 @@ function closeSideMenu() {
     document.getElementsByClassName("sideMenu").style.width="0";
 }
 
-// Change text color
-function changeTextColor() {
-    document.getElementById('change').style.color = 'blue';
-}
+// // Change text color
+// function changeTextColor() {
+//     document.getElementById('change').style.color = 'blue';
+// }
 
 // oninput function
 function onInputFunction() {
