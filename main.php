@@ -156,11 +156,12 @@
     <section>
         <div class="centered">
             <p>Let's <b>Travel Together</b>!</p>
+            <p class="para1">Nature. Adventure. Experience.</p>
         </div>
     </section>
     <div class="details">
-        <h2>Detalis</h2>
-        <h4 id="change">Change my color to blue!</h4>
+        <h2></h2>
+        <h4 id="change">Add your details</h4>
 
         <label><br>Search</label>
         <input type="text" id="myInput" oninput="onInputFunction()" onfocus="bgChangefunction(this)">
