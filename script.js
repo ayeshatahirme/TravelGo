@@ -43,7 +43,7 @@ function closeSideMenu() {
 // }
 
 // oninput function
-function onInputFunction() {
-    var temp = document.getElementById('myInput').value;
-    document.getElementById('output').innerHTML = 'You are searching: ' + temp;
-}
+// function onInputFunction() {
+//     var temp = document.getElementById('myInput').value;
+//     document.getElementById('output').innerHTML = 'You are searching: ' + temp;
+// }

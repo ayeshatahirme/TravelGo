@@ -160,15 +160,20 @@
         </div>
     </section>
     <div class="details">
-        <h2></h2>
-        <h4 id="change">Add your details</h4>
+        <h2>Add details here</h2>
+        <div id="myInput">
+            <label><br>Location</label>
+            <input type="text" oninput="onInputFunction()" onfocus="bgChangefunction(this)">
+            
+            <label class="box1"><br>Date in</label>
+            <input type="text" oninput="onInputFunction()" onfocus="bgChangefunction(this)">
 
-        <label><br>Search</label>
-        <input type="text" id="myInput" oninput="onInputFunction()" onfocus="bgChangefunction(this)">
-        <p id="output"></p>
+            <label><br>Date out</label>
+            <input type="text" oninput="onInputFunction()" onfocus="bgChangefunction(this)"><br>
 
-        <label>Email: </label>
-        <input type="email" value="youremail" onfocus="bgChangefunction(this)">
+            <label>Email</label>
+            <input type="email" value="youremail" onfocus="bgChangefunction(this)">
+        </div>
     </div>
 
     <!-- Footer -->
