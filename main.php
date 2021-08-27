@@ -8,26 +8,12 @@
     <!-- <link rel="stylesheet" href="stylesheet.css"> -->
     <link rel="stylesheet" href="stylesheet.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
     <script src="script.js"></script>
     
 </head>
-<script>
-    // Change text color
-    function changeTextColor() {
-        document.getElementById('change').style.color = 'blue';
-    }
-    // oninput function
-    function onInputFunction() {
-        var temp = document.getElementById('myInput').value;
-        document.getElementById('output').innerHTML = 'You are searching: ' + temp;
-    }
-
-    // Change bg on onfocus function
-    function bgChangefunction(temp) {
-        temp.style.background = "#D1E7FA"
-    }
-
-</script>
 <body>
     <!-- Second page -->
     <nav>

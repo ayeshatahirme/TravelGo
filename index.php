@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylesheet.css">
     <script src="script.js"></script>
     <title>IVION</title>
@@ -23,7 +25,8 @@
                 
                 <form id="img-name" method="POST" action="main.html">
                     <input type="file" id="upload-img" name="image" accept="images/*" capture />
-                </form>
+                    </form>
+                    
                     <input type="text" id="fullname" placeholder="Full Name" required="">
                 </form>
             </form>
