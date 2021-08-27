@@ -166,6 +166,8 @@
             <input type="text" placeholder="Date in"><br>
             <input type="text" placeholder="Date out"><br>
             <input type="email" placeholder="Email"><br>
+
+            <button id="submit-btn">Submit</button>
         </div>
     </div>
 

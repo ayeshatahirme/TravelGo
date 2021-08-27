@@ -24,8 +24,7 @@
                 <form id="img-name" method="POST" action="main.html">
                     <input type="file" id="upload-img" name="image" accept="images/*" capture />
                 </form>
-                    <label>Full Name</label>
-                    <input type="text" id="fullname" placeholder="" required="">
+                    <input type="text" id="fullname" placeholder="Full Name" required="">
                 </form>
             </form>
             <a href="main.php"><input type="button" id="next-btn" value="Next" onclick="passvalue()"></a>
