@@ -241,6 +241,12 @@ body{
         height: 700px;
         margin-top: -105px;
     }
+    .side-pic{
+        width: 50%;
+        float: left;
+        margin-top: 25px;
+        margin-left: 60px;
+    }
     .centered{
         top: 50%;
         color: #f6f7fc;
@@ -255,10 +261,11 @@ body{
       }
       .details{
           margin: 40px;
+          margin-left: 850px;
       }
       .details h2{
           margin-bottom: 38px;
-          margin-left: 10px;
+          margin-left: 80px;
           margin-bottom: 10px;
       }
       input[type=email]{
