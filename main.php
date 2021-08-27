@@ -172,7 +172,7 @@
             <input type="text" oninput="onInputFunction()" onfocus="bgChangefunction(this)"><br>
 
             <label>Email</label>
-            <input type="email" value="youremail" onfocus="bgChangefunction(this)">
+            <input type="email" onfocus="bgChangefunction(this)">
         </div>
     </div>
 
