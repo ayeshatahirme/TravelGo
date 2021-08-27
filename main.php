@@ -162,10 +162,10 @@
     <div class="details">
         <h2>Add details</h2>
         <div>
-            <input type="text" placeholder="Location" oninput="onInputFunction()" onfocus="bgChangefunction(this)"><br>
-            <input type="text" placeholder="Date in" oninput="onInputFunction()" onfocus="bgChangefunction(this)"><br>
-            <input type="text" placeholder="Date out" oninput="onInputFunction()" onfocus="bgChangefunction(this)"><br>
-            <input type="email" placeholder="Email" onfocus="bgChangefunction(this)"><br>
+            <input type="text" placeholder="Location"><br>
+            <input type="text" placeholder="Date in"><br>
+            <input type="text" placeholder="Date out"><br>
+            <input type="email" placeholder="Email"><br>
         </div>
     </div>
 
