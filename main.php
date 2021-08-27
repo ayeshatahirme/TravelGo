@@ -159,7 +159,7 @@
             <p class="para1">Nature. Adventure. Experience.</p>
         </div>
     </section>
-    <img src="images/t7.jpg" alt="trees" class="side-pic">
+    <img src="images/t4.jpg" alt="trees" class="side-pic">
     <div class="details">
         <h2>Add details</h2>
         <div>
