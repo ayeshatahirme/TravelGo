@@ -141,7 +141,7 @@
     </div>
     <section>
         <div class="centered">
-            <p>Let's <b>Travel Together</b>!</p>
+            <p class="para">Let's <b>Travel Together</b>!</p>
             <p class="para1">Nature. Adventure. Experience.</p>
         </div>
     </section>

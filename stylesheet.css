@@ -250,12 +250,13 @@ body{
         margin-left: 80px;
     }
     .centered{
-        top: 50%;
         color: #f6f7fc;
         font-size: 44px;
-        transform: translate(-50%, -50%);
+        margin-left: 33%;
+        transform: translate(0%, 210%);
       }
       .centered .para1{
+        margin-left: 4%;
           font-size: 30px;
           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       }
