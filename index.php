@@ -11,7 +11,7 @@
     <title>IVION</title>
 </head>
 
-<body>
+<body style="background-color: #7fb5c7;">
 
     <!-- First page -->
     <nav class="navBar">
@@ -21,11 +21,10 @@
         <div class="img-name">
             
             <form action="main.php" method="POST">
-                <img src="images/camera-new.png" alt="Avatar" class="avatar" id="avatar">
+                <img src="images/t7.jpg" alt="Avatar" class="avatar" id="avatar">
                 
                 <form id="img-name" method="POST" action="main.html">
-                    <input type="file" id="upload-img" name="image" accept="images/*" capture />
-                    </form>
+                    <!-- <input type="file" id="upload-img" name="image" accept="images/*" capture /> -->
                     
                     <input type="text" id="fullname" placeholder="Full Name" required="">
                 </form>
