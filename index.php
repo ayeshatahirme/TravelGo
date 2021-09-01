@@ -11,7 +11,11 @@
     <title>IVION</title>
 </head>
 
-<body style="background-color: #7fb5c7;">
+<body style="background: url(images/t7.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+        margin-top: 0px;">
 
     <!-- First page -->
     <nav class="navBar">
