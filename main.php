@@ -14,7 +14,7 @@ if(isset($_POST['email'])){
     $datein = $_POST['datein'];
     $dateout = $_POST['dateout'];
     $email = $_POST['email'];
-    $sql = "INSERT INTO `travelgo`.`travelgo` (`location`, `datein`, `dateout`, `email`) VALUES ('$name', '$datein', '$dateout', '$email');"
+    $sql = "INSERT INTO `travelgo` (`location`, `datein`, `dateout`, `email`) VALUES ('$name', '$datein', '$dateout', '$email');";
 }
 
 ?>
