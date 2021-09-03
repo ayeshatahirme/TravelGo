@@ -1,3 +1,24 @@
+<?
+if(isset($_POST['email'])){
+    $server = "localhost";
+    $username = "root";
+    $password = "";
+
+    $con = mysqli_connect($server, $username, $password);
+
+    if(!$con){
+        die("connection to database failed due to" . mysqli_connect_error());
+    }
+
+    $location = $_POST['location'];
+    $datein = $_POST['datein'];
+    $dateout = $_POST['dateout'];
+    $email = $_POST['email'];
+    $sql = "INSERT INTO `travelgo`.`travelgo` (`location`, `datein`, `dateout`, `email`) VALUES ('$name', '$datein', '$dateout', '$email');"
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -149,10 +170,10 @@
     <div class="details">
         <h2>Add details</h2>
         <div>
-            <input type="text" placeholder="Location"><br>
-            <input type="text" placeholder="Date in"><br>
-            <input type="text" placeholder="Date out"><br>
-            <input type="email" placeholder="Email"><br>
+            <input type="text" placeholder="Location" name = "location"><br>
+            <input type="text" placeholder="Date in" name = "datein"><br>
+            <input type="text" placeholder="Date out" name = "dateout"><br>
+            <input type="email" placeholder="Email" name = "email"><br>
 
             <button id="submit-btn">Submit</button>
         </div>
