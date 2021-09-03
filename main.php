@@ -174,8 +174,10 @@ if(isset($_POST['email'])){
             <input type="text" placeholder="Date in" name = "datein"><br>
             <input type="text" placeholder="Date out" name = "dateout"><br>
             <input type="email" placeholder="Email" name = "email"><br>
-
-            <button id="submit-btn">Submit</button>
+            
+            <form id="img-name" method="POST" action="main.html">
+                <button id="submit-btn">Submit</button>
+            </form>
         </div>
     </div>
 
