@@ -1,4 +1,4 @@
-<?
+<?php
 if(isset($_POST['email'])){
     $server = "localhost";
     $username = "root";
@@ -15,6 +15,7 @@ if(isset($_POST['email'])){
     $dateout = $_POST['dateout'];
     $email = $_POST['email'];
     $sql = "INSERT INTO `travelgo` (`location`, `datein`, `dateout`, `email`) VALUES ('$name', '$datein', '$dateout', '$email');";
+    echo $sql;
 }
 
 ?>
@@ -170,12 +171,11 @@ if(isset($_POST['email'])){
     <div class="details">
         <h2>Add details</h2>
         <div>
-            <input type="text" placeholder="Location" name = "location"><br>
-            <input type="text" placeholder="Date in" name = "datein"><br>
-            <input type="text" placeholder="Date out" name = "dateout"><br>
-            <input type="email" placeholder="Email" name = "email"><br>
-            
-            <form id="img-name" method="POST" action="main.html">
+            <form method="POST" action="main.php">
+                <input type="text" placeholder="Location" name = "location"><br>
+                <input type="date" placeholder="Date in" name = "datein"><br>
+                <input type="date" placeholder="Date out" name = "dateout"><br>
+                <input type="email" placeholder="Email" name = "email"><br>
                 <button id="submit-btn">Submit</button>
             </form>
         </div>
