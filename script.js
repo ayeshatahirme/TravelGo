@@ -34,7 +34,7 @@ function openSideMenu() {
 
 // Close Side Menu
 function closeSideMenu() {
-    document.getElementsByClassName("sideMenu").style.width="0";
+    document.getElementById("mySideMenu").style.width="0px";
 }
 
 // // Change text color
